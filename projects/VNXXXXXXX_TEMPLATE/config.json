@@ -1,0 +1,61 @@
+{
+    "project_name" : "VNXXXXXXX_TEMPLATE",
+    "run_mdd_source" : true,
+    "source_initialization" : {
+        "default_language" : "VIT",
+        "delete_all" : true,
+        "remove_all_ids" : true,
+        "dummy_data_required": true
+    },
+    "processing_data" : {
+        "run_ce_source" : false,
+        "run_oe_source" : false
+    },
+    "main" : {
+        "xmls" : {
+            "--Enter a protodid 1--" : "--Enter a xml file 1--",
+            "--Enter a protodid 2--" : "--Enter a xml file 2--"
+        },
+        "protoid_final" : "10104"
+    },
+    "stages" : {
+        "stage-1" : {
+            "xmls" : {
+                "--Enter a protodid 1--" : "--Enter a xml file 1--",
+                "--Enter a protodid 2--" : "--Enter a xml file 2--"
+            },
+            "protoid_final" : "--Enter a protodid finalize--"
+        },
+        "stage-2" : {
+            "xmls" : {
+                "--Enter a protodid 1--" : "--Enter a xml file 1--",
+                "--Enter a protodid 2--" : "--Enter a xml file 2--"
+            },
+            "protoid_final" : "--Enter a protodid finalize--"
+        },
+        "stage-3" : {
+            "xmls" : {
+                "--Enter a protodid 1--" : "--Enter a xml file 1--",
+                "--Enter a protodid 2--" : "--Enter a xml file 2--"
+            },
+            "protoid_final" : "--Enter a protodid finalize--"
+        }
+    },
+    "respondent_information_columns" : {
+        "ResName" : "_ResName",
+        "ResHouseNo" : "_ResHouseNo",
+        "ResStreet" : "_ResStreet",
+        "ResWard" : "_ResWardSelected",
+        "ResDistrict" : "_ResDistrictSelected",
+        "ResProvinces" : "_ResProvinces",
+        "ResPhone" : "_ResPhone._C_1",
+        "ResCellPhone" : "_ResCellPhone._C_1",
+        "Email" : "_Email._C_1"
+    },
+    "respondent_information_columns_removed" : [
+        "_ResName","_ResAddress","_ResHouseNo","_ResStreet","_ResPhone","_ResPhone._C_1","_ResCellPhone","_ResCellPhone._C_1","_Email","_Email._C_1","_Quota_City ","_Quota_Gender","_Quota_AgeGroup ","_Quota_Class ","_Quota_LSM","SHELL_NAME","SHELL_AGE","SHELL_AGE._A1","SHELL_BLOCK_TEL.SHELL_HOMETEL","SHELL_BLOCK_TEL.SHELL_MOBTEL","SHELL_BLOCK_TEL.SHELL_BC_EMAIL","SHELL_TEL","SHELL_TEXTTEL","SHELL_BLOCK_ADDRESS.SHELL_HOUSENO","SHELL_BLOCK_ADDRESS.SHELL_STREET","SHELL_BLOCK_ADDRESS.SHELL_DISTRICT","SHELL_BLOCK_ADDRESS.SHELL_TOWN","SHELL_BLOCK_ADDRESS.SHELL_ZIP","SHELL_ADDRESS","SHELL_BLOCK_EMAIL.SHELL_IIS_PANEL","SHELL_BLOCK_EMAIL.SHELL_EMAIL","SHELL_BLOCK_EMAIL.SHELL_EMAIL_DUMMY"
+    ],
+    "axis_expression" : {
+		
+	}
+}

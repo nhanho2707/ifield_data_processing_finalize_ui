@@ -1,0 +1,12 @@
+# Runtime (IBM SPSS Data Collection must also be installed, same bitness as Python)
+pandas==2.3.3
+numpy==1.26.4
+pywin32==306
+tqdm==4.66.5
+XlsxWriter==3.2.0
+openpyxl==3.1.5
+savReaderWriter==3.4.2
+PySide6-Essentials==6.8.1
+
+# Build (build.ps1)
+pyinstaller==6.17.0

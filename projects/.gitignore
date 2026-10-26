@@ -1,0 +1,3 @@
+# Bỏ tất cả các thư mục trong folder Projects trừ folder VNXXXXXXX_TEMPLATE
+*/
+!VNXXXXXXX_TEMPLATE/
